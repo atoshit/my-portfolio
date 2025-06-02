@@ -1,0 +1,18 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="url(#gradient1)"/>
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="white" fill-opacity="0.1"/>
+  <circle cx="100" cy="100" r="20" fill="white" fill-opacity="0.2"/>
+  <rect x="140" y="90" width="120" height="8" rx="4" fill="white" fill-opacity="0.3"/>
+  <rect x="140" y="110" width="80" height="6" rx="3" fill="white" fill-opacity="0.2"/>
+  <rect x="70" y="150" width="260" height="4" rx="2" fill="white" fill-opacity="0.2"/>
+  <rect x="70" y="165" width="200" height="4" rx="2" fill="white" fill-opacity="0.2"/>
+  <rect x="70" y="180" width="240" height="4" rx="2" fill="white" fill-opacity="0.2"/>
+  <rect x="280" y="210" width="60" height="25" rx="12" fill="white" fill-opacity="0.3"/>
+  <text x="200" y="150" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">E-commerce Platform</text>
+</svg>
