@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import { Github, ArrowRight } from 'lucide-react';
 import { portfolioConfig } from '@/config/portfolio';
 import { fadeIn, staggerContainer, cardHoverAnimation } from '@/lib/animations';
 
@@ -178,7 +178,7 @@ const ProjectsSection = () => {
           className="mt-16 text-center"
         >
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-            Intéressé par d'autres projets ?
+            Intéressé par d&apos;autres projets ?
           </p>
           <motion.a
             whileHover={{ scale: 1.05 }}

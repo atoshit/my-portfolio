@@ -95,7 +95,7 @@ const ExperienceSection = () => {
             Mon Parcours Professionnel
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Découvrez mon expérience professionnelle et les projets sur lesquels j'ai travaillé
+            Découvrez mon expérience professionnelle et les projets sur lesquels j&apos;ai travaillé
           </p>
         </motion.div>
 

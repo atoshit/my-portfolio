@@ -36,7 +36,7 @@ const ContactSection = () => {
       await new Promise(resolve => setTimeout(resolve, 2000));
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -84,7 +84,7 @@ const ContactSection = () => {
             Contactez-moi
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Vous avez un projet en tête ? N'hésitez pas à me contacter pour en discuter !
+            Vous avez un projet en tête ? N&apos;hésitez pas à me contacter pour en discuter !
           </p>
         </motion.div>
 
@@ -102,7 +102,7 @@ const ContactSection = () => {
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-8">
                 Je suis toujours ouvert aux nouvelles opportunités et aux projets intéressants. 
-                N'hésitez pas à me contacter si vous souhaitez collaborer ou simplement discuter.
+                N&apos;hésitez pas à me contacter si vous souhaitez collaborer ou simplement discuter.
               </p>
             </motion.div>
 
@@ -259,7 +259,7 @@ const ContactSection = () => {
                   animate={{ opacity: 1, y: 0 }}
                   className="p-4 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded-lg"
                 >
-                  Une erreur s'est produite. Veuillez réessayer.
+                  Une erreur s&apos;est produite. Veuillez réessayer.
                 </motion.div>
               )}
             </form>

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ChevronDown, Download, Mail } from 'lucide-react';
+import { ChevronDown, Mail } from 'lucide-react';
 import { portfolioConfig } from '@/config/portfolio';
 import { fadeIn, textVariant, staggerContainer } from '@/lib/animations';
 
@@ -109,7 +109,7 @@ const HeroSection = () => {
           >
             <div className="text-center">
               <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">3+</div>
-              <div className="text-gray-600 dark:text-gray-400">Années d'expérience</div>
+              <div className="text-gray-600 dark:text-gray-400">Années d&apos;expérience</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">{portfolioConfig.projects.length}+</div>

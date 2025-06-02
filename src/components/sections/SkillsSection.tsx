@@ -158,7 +158,7 @@ const SkillsSection = () => {
             Toujours en apprentissage
           </h3>
           <p className="text-lg opacity-90 max-w-2xl mx-auto">
-            Je suis passionné par les nouvelles technologies et j'apprends constamment 
+            Je suis passionné par les nouvelles technologies et j&apos;apprends constamment 
             de nouveaux outils et frameworks pour rester à la pointe du développement.
           </p>
           
@@ -173,7 +173,7 @@ const SkillsSection = () => {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">∞</div>
-              <div className="opacity-80">Envie d'apprendre</div>
+              <div className="opacity-80">Envie d&apos;apprendre</div>
             </div>
           </div>
         </motion.div>
